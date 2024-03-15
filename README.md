@@ -14,4 +14,6 @@ curl \
   -d '{"name": "admin", "password": "apachepulsar", "description": "test", "email": "username@test.org"}'
 ```
 
-![Uploading Screenshot 2024-03-14 at 9.44.01 PM.png…]()
+### Apache Pulsar archtecture 
+
+![Screenshot 2024-03-14 at 9 44 01 PM](https://github.com/Java-Techie-jt/springboot-apache-pulsar/assets/25712816/63daeb90-f6f6-4328-8b21-49f0bdfdee01)
