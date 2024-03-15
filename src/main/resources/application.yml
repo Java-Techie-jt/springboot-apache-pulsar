@@ -1,0 +1,18 @@
+server:
+  port: 9191
+
+spring:
+  pulsar:
+    client:
+      service-url: pulsar://localhost:6650
+    producer:
+      topic-name1: jt-plain-topic
+      topic-name2: jt-raw-topic
+    consumer:
+      subscription:
+        name: my-subscription
+    defaults:
+      type-mappings:
+        - messageType: com.javatechie.dto.Customer
+          schema-info:
+            schema-type: JSON
